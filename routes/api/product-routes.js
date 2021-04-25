@@ -49,7 +49,7 @@ router.post('/', async (req, res) => {
         category_id: req.body.category_id,
       },
     ];
-    res.status(200).json(res.body);
+    res.status(200).json({ message: 'New product created!' });
   } catch (err) {
     res.status(500).json(err);
   }

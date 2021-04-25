@@ -20,7 +20,7 @@ Product.belongsToMany(Tag, {
     model: ProductTag,
     unique: true
   },
-  as: 'tag_id',
+  as: 'product_id',
   onDelete: 'CASCADE'
 });
 // Tags belongToMany Products (through ProductTag)
@@ -29,7 +29,7 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: true
   },
-  as: 'product_id',
+  as: 'tag_id',
   onDelete: 'CASCADE'
 });
 
