@@ -21,7 +21,6 @@ router.get('/:id', async (req, res) => {
   // be sure to include its associated Products
   try {
     const categoryData = await Category.findByPk(req.params.id, {
-      // Add Book as a second model to JOIN with
       include: [{ model: Product }],
     });
 
@@ -80,7 +79,7 @@ router.delete('/:id', async (req, res) => {
       return;
     }
     console.log('Deleting this category');
-    res.status(200).json(req.body);
+    res.status(200).json({ message: 'Category deleted' });
   } catch (err) {
     res.status(500).json(err);
   }
