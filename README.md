@@ -4,6 +4,10 @@
 Every good README has a descritpion of what goal the project accomplishes. The following section describes what this project does:
 > This project will allows a user to create, update, delete, and search for categories/products/tags by ID and store all of this information into a database
 
+[Video #1 (Installation, GET routes, POST/PUT routes for Categories)](https://drive.google.com/file/d/1FK-nGSNlNs6RBPhT1vhpI_pHudVip05M/view?usp=sharing)
+
+[Video #2 (POST/PUT routes for Products and Tags)](https://drive.google.com/file/d/158ZebASOwOpT9-MgMxztoPSUPNvgTzlR/view?usp=sharing)
+
 ## Table of Contents 
 
 
@@ -15,7 +19,7 @@ Every good README has a descritpion of what goal the project accomplishes. The f
 ## Install
 Sometimes the steps to get a project working can be confusing so it is important to give instructions on how to install your project. The following section describes this process:
 
-> After cloning this project, you will need to run 'npm install' to get the required packages. 
+> After cloning this project, you will need to run 'npm install' to get the required packages. Then change the .env file to match your credentials as well as start the ecommerce_db in mySQL. The videos at the end of the description also walk you through this process.
 
 ## Usage
 Since there could be several ways to input information into a project, it is important to state how it should be used. The following section describes how to use this project:
